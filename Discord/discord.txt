@@ -1,0 +1,8 @@
+Question: Join our Discord server and read the announcements, rules. Who knows, you might find the flag too?
+
+You can join the server from https://mini.vishwactf.com/. 
+
+Solution: If we go to the rules-and-FAQs-mini channel, we can see the flag in the channel topic
+vishwaCTF{rulesdontmatter}
+
+ 
