@@ -1,0 +1,48 @@
+Name :- INSENSIBLE
+
+Problem Created By :-  SHAUNAK GODBOLE
+
+Flag :- vishwaCTF{SUCH_A_WEIRD_ENCRYPTION_METHOD_TO_MAKE}
+
+Problem : 
+Insensible
+
+Only insensisble people will be able to make sense or is it the other way around? IDK it took away my sense and time.
+
+P.S. -- Seperate the words by underscore( _ )
+
+SARC SEDACED UWDR EMIT CEEY SRAEY HINP SDNOCES TMOM SEIRUTNEC IEDA SETUNIM OTTK AINELLIM NHOE SRUOH
+
+Solution : 
+
+Step 1 :
+Read the problem statement carefully to pick out the following hints from it
+1. "or is it the other way around"
+2. "took away my sense and time"
+
+Then carefully observe the given ciphertext to note that every alternate word is a measure of time spelled in reverse order. [2nd word : DECADES, 4th word : TIME, 6th word : YEARS, 8th word : SECONDS, 10th word : CENTURIES, 12th word : MINUTES, 14th word : MILLENIA, 16th word : HOURS]
+
+Step 2 :
+Remove all the time references to get the flag in ciphertext :
+Ciphertext : SARC UWDR CEEY HINP TMOM IEDA OTTK NHOE
+
+Observe that each word is exactly 4 alphabets long and total number of words are 8 which is also a multiple of 4.
+Such a symmetry is observed mostly is matrices and columnar transposition ciphers.
+Arrange the words in a grid of 4 x 4 as each word is 4 characters long and total length of ciphertext is also multiple of 4
+
+On doing this we get 2 grids as follows :
+S	A	R	C	  	T	M	 O	M  
+U	W	D	R		I	E	D	A
+C	E	E	Y		O	T	T	K
+H	I	N	P		N	H	O	E
+
+
+as per the Columnar transposition method, we read them vertically to find the following string
+flag = SUCHAWEIRDENCRYPTIONMETHODTOMAKE
+
+And as given in the question we seperate the words with a underscore( _ )
+flag = SUCH_A_WEIRD_ENCRYPTION_METHOD_TO_MAKE
+
+we then wrap it in flag format to get the final flag for submission as
+flag = vishwaCTF{SUCH_A_WEIRD_ENCRYPTION_METHOD_TO_MAKE}
+

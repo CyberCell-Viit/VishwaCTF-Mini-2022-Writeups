@@ -1,0 +1,59 @@
+Name :- OLDEN
+
+Problem Created By :- SHAUNAK GODBOLE
+
+Flag :- vishwaCTF{V1NT4G3_T3CH_N0T_S0_E4SY}
+
+Problem :- 
+
+Once a detective was walking down the street when he found a note addressed to him. It read the following.
+he took out his standard 12 key phone and dialled his friend to help him solve the puzzle.suddenly from the other end a voice was heard "stop playing with the lazy susan and hand me the vineger, BEAUFORT." "Pardon me?","Oh no no,i was talking to my son.I don't know whats gotten into him today. Sorry about that detective! what were you saying again?" To this the detective replied," Don't worry I figured it out"
+Can you find out what the detective figured out on his own?
+
+5.1:6.0:3.2:4.1:9.0:6.2:8.0:1.1:5.3:8.0:3.1:5.3:1.1:8.1:5.0:4.2:1.1:5.1:5.0:1.1:7.3:9.0:9.4:7.2
+
+
+Solution :-
+
+Step 1 :
+Read the problem statement to identify the odd bits that also act as hints as follows:
+1. "standard 12 key phone"
+2. "lazy susan"( It's a rotating arrangement)
+3. "Vinegar" ( Refering to vigenere cipher)
+4. "BEAUFORT" ( It's in all caps in middle of a sentence)
+
+Step 2:
+Follow the hints in the order that they appear.
+go to google and type standard 12 key phone to get the first link as :
+
+https://www.researchgate.net/figure/The-standard-12-key-telephone-keypad-character-layout-follows-the-ITU-E161-standard-8_fig1_221518150
+
+On that link is a image of a keypad of a phone.
+Using that image decode the numbers as follows:
+eg:  3.2:6.8 .....
+so the first part of the number is the reference to which number key you have to look, i.e, 3
+the part after the point refers to which letter on that key we have to pick, i.e, 3.2 means 2nd letter on 3 num key.
+: Seperates the different letters of text
+.0 means the number itself
+
+Decode it in the following manner to get cipher as:
+
+Cipher = J6EG9N8_L8DL_T5H_J5_R9ZQ
+
+Then use the second hint: "lazy susan" which is a rotational arrangement suggesting a ROT cipher.
+As the Cipher message previously obtained has both letters and numbers, we have to use the ROT-13 cipher
+
+Using website like https://www.decode.fr, we can decode the ROT-13 cipher (P.S. -- generally the apply ROT-5 on numbers box is checked by default, incase it's not make sure to check it as it has both letters and numbers) to get the following cipher flag:
+
+Cipher Flag : W1RT4A3_Y3QY_G0U_W0_E4MD
+
+Then use the last two hints : "vinegar" (most commonly used in CTFs for telling players to use vigenere cipher) and "BEAUFORT" ( All caps in question and we know that vigenere cipher can only take capital letters as key)
+
+Using website like https://www.decode.fr, we can decode the vigenere cipher
+While decoding the vigenere cipher make sure to insert the key "BEAUFORT" in the key parameter and then decode to get the flag as:
+
+flag : V1NT4G3_T3CH_N0T_S0_E4SY
+
+Then wrap it in the flag format to get the flag ready for submission as:
+
+flag = vishwaCTF{V1NT4G3_T3CH_N0T_S0_E4SY}

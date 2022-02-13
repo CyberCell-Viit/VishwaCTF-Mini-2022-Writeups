@@ -1,0 +1,53 @@
+Problem Name :- Chronos
+
+Problem created by :- SHAUNAK GODBOLE
+
+Flag :- vishwaCTF{C70CK5_AR3_FUNNY}
+
+problem :
+Chronos
+
+
+ɘɔɒɘԳ bnɒ ɿɒW ,γoɈƨloT oɘ⅃ - ................ƨɿoiɿɿɒw lυʇɿɘwoq Ɉƨom owɈ ɘʜT
+
+
+⬈⬆⬆⬉⬆⬈⬆   ⬆⬉⬈⬆⬆⬈⬆   ⬆⬈⬉⬆⬆⬈⬆   ⬈⬆⬈⬆⬈⬆⬈⬆   ⬆⬉⬆⬆⬆⬈⬆   ⬉⬉⬈⬆⬈⬆   ⬉⬆⬆⬉⬆⬆   ⬆⬈⬆⬆⬈⬆⬈⬆
+⬈⬆⬆⬆⬆⬆⬈⬆   ⬉⬉⬈⬆⬈⬆   ⬈⬆⬈⬆⬉⬆⬆   ⬉⬆⬈⬆⬆⬈⬆   ⬉⬆⬆⬆⬆⬈⬆   ⬆⬆⬆⬆⬉⬆⬆   ⬈⬉⬆⬉⬆⬆   ⬉⬆⬆⬆⬆⬈⬆
+
+Solution :-
+
+Step 1 :
+Look at the problem description to see that it is mirror image or regular statement.
+Then mirror image the description to obtain the legible/readable statement.
+It is a quote from WAR AND PEACE, a novel by Leo Tolstoy.
+On completing the quote it becomes "The two most powerful warriors are patience and time."
+
+Step 2 :
+The quote refers to time and the name of the problem statement "CHRONOS" also refer to time giving the hint that the arrows are related to time, or more precisely, what we use to measure the time : Clocks
+By that logic :
+⬈   :   1
+⬆    :   0
+⬉   :   11
+
+On substituting the arrows with their position on clock , we get a binary string
+
+string = 10011010 01110010 01110010 10101010 01100010 11111010 11001100 01001010 10000010 11111010 10101100 11010010 11000010 00001100 11101100 11000010
+
+Step 3 :
+
+However, simply trying to convert this obtained binary to text gives gibberish.
+So to get the final flag we have to use the second hint.
+The second hint is that the description of the question is mirrored, meaning that the obtained binary is also mirrored.
+we can use the following python code to mirror the string
+print(string[::-1])
+So we mirror the obtained binary string to get the flag in binary format as 
+
+flag = 01000011 00110111 00110000 01000011 01001011 00110101 01011111 01000001 01010010 00110011 01011111 01000110 01010101 01001110 01001110 01011001
+
+On converting this binary to text we get the actual flag as 
+
+flag = C70CK5_AR3_FUNNY
+
+then we wrap it in flag format and get the final flag for submission as :
+
+flag : vishwaCTF{C70CK5_AR3_FUNNY}

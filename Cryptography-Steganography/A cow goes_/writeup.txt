@@ -1,0 +1,27 @@
+Name :- A cow goes?
+
+Problem Created By :-  Yash Sant
+
+Flag :- VishwaCTF{y0u_9ot_u5_r19ht}
+
+Problem : 
+A cow goes?
+
+Can you find flag from this image?
+
+Attachment- animal.jpg
+ 
+Solution : 
+
+Step 1 :
+Using Binwalk tool it is found that a zip file is embedded in the animal.jpg image. 
+
+Step 2 :
+In the Zip file there is a txt file named secret.txt
+
+Step 3:
+In secret.txt there is code, using the hint in the image the code can be identifed to be written COW Programming language.
+
+Step 4:
+Using any COW language code complier a flag is found 
+VishwaCTF{y0u_9ot_u5_r19ht}

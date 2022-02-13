@@ -1,0 +1,24 @@
+Name :- Look for me...
+
+Problem Created By :-  Yash Sant
+
+Flag :- VishwaCTF{y0u_9ot_u5_r19ht}
+
+Problem : 
+Look for me...
+
+Have you heard about a popular Taylor Swift Song? From the album Fearless? Yeah, that might help you to find the flag.
+
+Attachment: image.jpg
+ 
+Solution : 
+
+Step 1 :
+Usings strings command on image.jpg, a suspecious string could be found in the image.
+
+Step 2 :
+By the given hint, the string could be suspected to be encrypted by ROT chipher with rotation set to 15.
+
+Step 3:
+Using proper dechiphering tool, with Rotation set to 15 and using 94 PRINTABLE ASCII character.
+A flag is found VishwaCTF{y0u_9ot_u5_r19ht}

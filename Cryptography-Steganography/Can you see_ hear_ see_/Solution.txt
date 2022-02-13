@@ -1,0 +1,7 @@
+Question name is see-hear-see
+Since the file is in text format we can conclude we have to convert it to audio form and then again some visual format.
+In encode.txt we see we have to replace some characters. Do it using python(use solution.py provided).
+It is base64. Using online tools you can easily find it is .wav file. Convert it to audio.
+Now hint was provided to convert it again to visual ie. image format.
+Hiding image in audio spectrogram is a famous technique in steganography. Using online tools you can view its spectrogram.
+

@@ -1,0 +1,17 @@
+Problem Name: UNKNOWN GRAFFITI
+Author: Jayesh Bhave
+Flag: vishwaCTF{UNOWN_HYPNOTIC}
+Problem: 
+	My Friend visited an ancient cave and found some old graffiti on wall of Cave.
+	It seemed Interesting so he sent it to me to find what that means. But this is not familiar to me.
+	And also he said - "Here are so many Unknowns in Cave."
+
+Attachment : Image- Graffiti.png
+Solution:
+
+Step 1: Just like Pikalang which is language of Pikachu there's a Language of Unown which is species of Pokemon having unknown shape.
+Using this Unown Language Flag is encrypted.
+Step 2: Decrypt it using Unown Lang Decoder to get the Final Flag and separate to words using UnderScore.
+Step 3: Also there's a way to solve this without decoder, as we can see the shape of every element in image, they have shape of an Alphabet.
+Using that Logic we can find out Flag
+Step 4: On Decoding the String in Image we get Flag as :- vishwaCTF{UNOWN_HYPNOTIC}

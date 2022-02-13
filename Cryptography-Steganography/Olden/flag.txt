@@ -1,0 +1,1 @@
+flag :- vishwaCTF{V1NT4G3_T3CH_N0T_S0_E4SY}
