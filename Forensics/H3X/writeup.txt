@@ -1,0 +1,10 @@
+Question:Why does everyone keep sending me corrupt data?
+
+Here we are a given an image but its not opening.So we open check whether 
+the file type really and image or not
+By opening the file in Hexedit we see that it really is an image but 
+the signature format of header has been changed.
+In order to recover it we edit the header to the actual signature of jpeg,
+
+By doing this we see that now the image is accessible and the flag is
+{TH1S_1S_H0W_W3_R0LL}

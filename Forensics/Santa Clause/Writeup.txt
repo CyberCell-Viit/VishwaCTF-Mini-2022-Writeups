@@ -1,0 +1,20 @@
+Santa Clause
+------------------------------------
+Santa has a gift for you but he is playing hard to get. Could you find the flag?
+>> A file(Present) is given as a start.
+
+------------------------------------
+
+1. Here the file is corrupted but strings command helps us to find a link and a password
+Link:
+Password: savemeforlateruse
+
+2. The link leads to a webpage with a download option for a file and it is downloaded.
+
+3. After downloading the zip file and find there is a lock to it.
+
+4. We use the password earlier found to unlock it.
+
+5. We get a image of a present which has the flag in it.
+
+The flag is VishwaCTF{g1ft5_4r3_4we50m3}

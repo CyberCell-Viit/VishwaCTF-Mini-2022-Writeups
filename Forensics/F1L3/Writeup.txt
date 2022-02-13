@@ -1,0 +1,16 @@
+Question:I have come across a text file but it seems to contain random letters and symbols.
+Can you find the flag?
+Hint: If you are having trouble with this bit,try shifting your focus.
+
+Hola and welcome to the forensics challenge.This is just filler text to make it longer.
+vishwactf{a_l1l_tr1cky}
+
+In this challenge we are given a text file with random data.
+The file is definitely a text file. 
+However we can’t make any sense of it looking at it in a text editor.
+We need to use a hex editor to look for more clues.
+
+The hint states “If you are having trouble with this bit,try shifting your focus.” 
+Bit-Shifting involves shifting every bit in the file. 
+We can do this with a hex editor called WinHex.
+By shifting the bits to the right once, the file is displayed normally.

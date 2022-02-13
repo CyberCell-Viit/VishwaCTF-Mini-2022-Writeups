@@ -1,0 +1,5 @@
+﻿Know Your Basics: Writeup
+Author: Atharva Pande
+1. Given is a MS word file which doesn’t open, you need to know that word file is basically a zip file which is constituted by a bunch of .xml files MS Word is just a software which compiles all the files and gives you a readable text file.
+2. So now to open the word, first rename it to .zip and make sure it actually gets converted to a zip folder. Now extract the zip you’ll see a folder named “word” open it you’ll see a file named “document.xml” open it in notepad.
+3. At the end of the code in the file you’ll see a text “ur close” below it you’ll see an unknown coded string, its in ASCII85 decode it, and capture your flag!

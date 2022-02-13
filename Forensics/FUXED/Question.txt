@@ -1,0 +1,9 @@
+Challenge name: know ur basics!
+
+Question:
+Cisco has a lot of data, he's always in search of storage. one day he was heading to his office building and while walking he found an usb stick, he picked that up, afterall a free storage so why not!
+He plugged it in his work desktop, and boom! a cmd screen appeared for a sec and vanished. Now he's concerned that what just happened to his PC.
+He opened the usb and there was this file...do u know what happened?
+
+
+
