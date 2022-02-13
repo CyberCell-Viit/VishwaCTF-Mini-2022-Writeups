@@ -1,0 +1,6 @@
+Question:The flag format for this ctf is VishwaCTF{your_flag_here}
+
+Enclose whatever answer you get within VishwaCTF{} if its not already in that format
+Enter the flag VishwaCTF{basicflag} to solve this question
+
+Solution:The flag is VishwaCTF{basicflag} itself
