@@ -1,0 +1,2 @@
+./vuln $(python -c "print('BUFFER '+'A'*32)")
+

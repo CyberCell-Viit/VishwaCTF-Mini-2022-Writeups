@@ -1,0 +1,5 @@
+Question Name : SAVE THE DRAGON 
+
+Question Description : Wizard Corbin has cast an evil spell on Ghidra, the dragon🐉. Your mission is to break the spell by casting your own spell and save the dragon. It shouldn’t be that difficult as the dragon has lent some of his powers to you.
+
+Hint (not to be given in question) : Counter spell to the evil spell can be found in _/_m/_main  
