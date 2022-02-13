@@ -1,0 +1,17 @@
+The Last information
+---------------------------------------
+Question: Sorry mate this is the only information I could retrieve. I think someone is watching me. I had to take precautions to send this to you. I won't be able to help you anymore regarding the case. Good luck!
+
+1. The photo of the FIR given tells us a story about a waitor's last few minutes before a blast in a bakery.
+
+2. The image also consists of a hidden hint and a reportings database that has the police reportings around that time frame.
+
+3. The hint says that we have to find the mastermind and a date is given 13/02/2010
+
+After we match this data in the excel sheet given we find a name Paras Rimal.
+Connecting some dots, the FIR must be a copy of Paras Rimal's statement.
+Some research on the internet about bomb blasts near date 13/02/2010 and Paras Rimal tells us that the question is referencing the Pune Bomb blasts of 2010.
+All that is left is to find the mastermind of the blasts using some reconnaissance on the Internet.
+The mastermind of the blasts was "ILYAS KASHMIRI"
+
+The flag is VishwaCTF{ILYAS_KASHMIRI}

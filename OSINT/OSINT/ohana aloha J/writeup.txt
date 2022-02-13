@@ -1,0 +1,8 @@
+﻿OSINT WRITEUP: OHANA ALOHA J.
+Author: Atharva Pande
+1. Decode the unknown string, knjwamujkkvbivznqjmpeye, using online decoder, its “Beaufort cipher”. It decodes to “septtwothousandandeighteen”. (i.e. Sept 2018)
+2. Now when you search the name of the challenge “OHANA ALOHA J.”, google give the name of Jason Momoa. (Aquaman)
+3. Now go to his Instagram and scroll down to sept 2018 you’ll one post in which his having lunch/feast. Now to find the timings of this post you need to use an osint tool called “Osintgram”, a tool for Instagram osint.
+4. You can setup this tool in Kali as well as Termux, after that target his account and give command>/   -addrs.  It shows all the registered locations of target’s posts.
+5. There you’ll find his post’s address on 27 sept 2018 and the timings of the post,
+That’s your flag, capture it!

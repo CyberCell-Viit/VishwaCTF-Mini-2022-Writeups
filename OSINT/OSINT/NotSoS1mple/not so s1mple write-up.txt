@@ -1,0 +1,35 @@
+We are given the question description, 'One of our admins ShrekOP 
+is a CSGO esport fan! Do you know about the most expensive 
+flashbang in CSGO? Maybe you'll find him there?'
+
+On Googling the same, we get Youtube videos, Reddit posts and news
+articles on the topic. On checking the Reddit post and news 
+articles, it becomes clear that there is nothing to be found 
+there. 
+
+The key is the most viewed video titled 's1mple and the 
+Most Expensive Flashbang in the World' (the title of the question
+hints to this as well) by theScore esports. Since we are given 
+the name to find, we can check the comments with the help of any 
+tools available for the same (such as https://ytcomment.kmcat.uk/)
+or sorting the comments by newest first, we get the comment by
+ShrekOP - 'This is arguably one of the most iconic CSGO clutches 
+of all time! I like to play CSGO and watch esports too! Would you
+like to know more about me?', a reference to the 'about me' field
+of the channel.
+
+On checking it, we get 'My username on (almost) all platforms is 
+csgolover_69 and I love CSGO (n̶o̶ ̶s̶h̶i̶t̶ ̶S̶h̶e̶r̶l̶o̶c̶k̶  XD)
+Connect with me if you like CSGO and flags!'
+The reference to flags reinforces that we are on the correct track.
+Also we see that the channel has an uploaded video, with multiple
+references to 'steam'.
+
+We check Steam Community for the username "csgolover_69", and find 
+a user with the name. On checking the profile, we see that the 
+user has uploaded 1 screenshot.
+
+The screenshot is an in-game screengrab from the game CSGO, which
+contains the mirrored flag on the right wall.
+
+Flag : vishwaCTF{du5t2_b35t_m4p}

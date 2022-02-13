@@ -1,0 +1,4 @@
+﻿Challenge name: ohana Aloha J.
+Question:
+It was a long time ago when Aquaman had a small feast, but his friends refused to agree. He lost the photo; his friends want him to tell the date and time of when they ate. Aquaman roughly remembers the month and year to be  knjwamujkkvbivznqjmpeye   can u help him find the complete date and time.
+Flag Format: vishwactf{yyyy-mm-dd_hh-mm-ss}
